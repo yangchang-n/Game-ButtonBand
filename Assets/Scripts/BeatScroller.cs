@@ -11,6 +11,7 @@ public class BeatScroller : MonoBehaviour
 
     void Start()
     {
+        transform.position += new Vector3(0, 0, 0);
         scrollSpeed = beatTempo * multipleSpeed / 60f;
     }
 
