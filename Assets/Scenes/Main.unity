@@ -441,11 +441,19 @@ MonoBehaviour:
   startPlaying: 0
   beatScroller: {fileID: 1481861269}
   scorePostion: {x: 0, y: 1.5, z: 0}
-  score300: {fileID: 3316243203961743977, guid: 59d7014c56525db4c8b79c8a3473e74e, type: 3}
-  score000: {fileID: 3571936330879937461, guid: c7356526ac35c784e85f8339e12a0f41, type: 3}
+  score300: {fileID: 1606998328272893221, guid: 59d7014c56525db4c8b79c8a3473e74e, type: 3}
+  score200: {fileID: 7380668048114385439, guid: 886fa885ab1f7a444b49784ab7536a96, type: 3}
+  score100: {fileID: 7380668048114385439, guid: 886fa885ab1f7a444b49784ab7536a96, type: 3}
+  score050: {fileID: 7027782071383924099, guid: bdad7f79d75b9ac4db12050c40e09fe2, type: 3}
+  score000: {fileID: 7527390286132669096, guid: c7356526ac35c784e85f8339e12a0f41, type: 3}
   currentCombo: 0
   currentScore: 0
   scorePerNote: 100
+  scorePer300: 300
+  scorePer200: 200
+  scorePer100: 100
+  scorePer050: 50
+  scorePer000: 0
   currentMultiplier: 1
   multiplierTracker: 0
   multiplierThresholds: 05000000140000002d00000050000000
@@ -2964,7 +2972,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.2, y: 0.5}
+  m_Size: {x: 2, y: 0.5}
   m_EdgeRadius: 0
 --- !u!50 &1291322188
 Rigidbody2D:
