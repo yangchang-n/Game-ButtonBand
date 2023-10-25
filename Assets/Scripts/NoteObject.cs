@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class NoteObject : MonoBehaviour
 {
+    public BeatScroller beatScroller;
+    public GameObject   buttonLine;
+
     public bool         canBePressed;
     public KeyCode      keyToPress;
-    // public BeatScroller beatScroller;
+    public GameObject   hitEffect;
 
     void Start()
     {
-        // beatScroller = GetComponent<BeatScroller>();
-        // float ms = beatScroller.multipleSpeed;
+
     }
 
     void Update()
@@ -22,16 +24,21 @@ public class NoteObject : MonoBehaviour
             {
                 gameObject.SetActive(false);
 
+                Instantiate(hitEffect, new Vector3(transform.position.x, -3.2f, 0), Quaternion.identity);
+
                 // GameManager.instance.NoteHit();
-                if ((transform.position.y < -0.25 * 1 - 3.2) || (transform.position.y > 0.5 * 1 - 3.2)) // preset, multiSpeed 관련 구현 필요
+                float judgeRange  = beatScroller.scrollSpeed / 10f;
+                float judgePreset = buttonLine.transform.position.y;
+
+                if (Mathf.Abs(transform.position.y) + judgePreset > 0.5f * judgeRange)
                 {
                     Debug.Log("50");
                     GameManager.instance.Hit050();
-                } else if ((transform.position.y < -0.1 * 1 - 3.2) || (transform.position.y > 0.2 * 1 - 3.2))
+                } else if (Mathf.Abs(transform.position.y) + judgePreset > 0.2f * judgeRange)
                 {
                     Debug.Log("100");
                     GameManager.instance.Hit100();
-                } else if ((transform.position.y < -0.05 * 1 - 3.2) || (transform.position.y > 0.1 * 1 - 3.2))
+                } else if (Mathf.Abs(transform.position.y) + judgePreset > 0.1f * judgeRange)
                 {
                     Debug.Log("200");
                     GameManager.instance.Hit200();

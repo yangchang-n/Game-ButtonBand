@@ -204,8 +204,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 115
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &24835150
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -339,8 +342,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 115
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &81049499
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -799,8 +805,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 106
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &466869968
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -934,8 +943,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 115
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &471838684
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1069,8 +1081,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 115
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &582664003
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1204,8 +1219,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 106
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &629054104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1339,8 +1357,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 100
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &656930317
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1700,8 +1721,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 106
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &764419267
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1835,8 +1859,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 107
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &823825963
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1970,8 +1997,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 100
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &831969216
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2279,8 +2309,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 107
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &887173384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2519,8 +2552,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 115
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &1209165297
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2654,8 +2690,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 115
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &1253124925
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2789,8 +2828,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 107
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &1270276283
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3513,8 +3555,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 106
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &1478396685
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3597,7 +3642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 212
-  multipleSpeed: 1
+  multipleSpeed: 2.5
   scrollSpeed: 2
   hasStarted: 0
 --- !u!4 &1481861270
@@ -3719,8 +3764,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 100
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &1485566479
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3854,8 +3902,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 107
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &1598763271
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3989,8 +4040,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 100
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &1610512370
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4298,8 +4352,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 107
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &1689432819
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4433,8 +4490,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 100
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &1708693790
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4847,8 +4907,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 107
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &1936960672
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5116,8 +5179,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 107
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &1967523070
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5587,8 +5653,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b5920b0fd93b3419218fbe68855cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatScroller: {fileID: 1481861269}
+  buttonLine: {fileID: 1291322184}
   canBePressed: 0
   keyToPress: 115
+  hitEffect: {fileID: 3546308665916302595, guid: 76e0b48176800f4478aac04d6856443c, type: 3}
 --- !u!212 &2115345287
 SpriteRenderer:
   m_ObjectHideFlags: 0

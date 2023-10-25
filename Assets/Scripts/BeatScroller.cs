@@ -5,8 +5,9 @@ using UnityEngine;
 public class BeatScroller : MonoBehaviour
 {
     public  float   beatTempo;
-    public  float   multipleSpeed = 1;
+    public  float   multipleSpeed;
     public  float   scrollSpeed;
+    
     public  bool    hasStarted;
 
     void Start()
