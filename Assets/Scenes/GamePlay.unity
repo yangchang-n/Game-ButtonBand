@@ -460,6 +460,12 @@ MonoBehaviour:
   scorePer100: 100
   scorePer050: 50
   scorePer000: 0
+  totalNotes: 0
+  count300: 0
+  count200: 0
+  count100: 0
+  count050: 0
+  count000: 0
   currentMultiplier: 1
   multiplierTracker: 0
   multiplierThresholds: 05000000140000002d00000050000000
