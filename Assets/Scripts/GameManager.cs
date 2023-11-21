@@ -30,6 +30,13 @@ public class GameManager : MonoBehaviour
     public int scorePer050 = 50;
     public int scorePer000 = 0;
 
+    public int totalNotes;
+    public int count300;
+    public int count200;
+    public int count100;
+    public int count050;
+    public int count000;
+
     // public float accuracy300 = 100;
     // public float accuracy200 = 60;
     // public float accuracy100 = 25;
@@ -50,6 +57,8 @@ public class GameManager : MonoBehaviour
 
         scoreText.text = "Score : 0";
         currentMultiplier = 1;
+
+        totalNotes = FindObjectsOfType<NoteObject>().Length;
     }
 
     void Update()
@@ -98,6 +107,8 @@ public class GameManager : MonoBehaviour
         Destroy(clone300, 0.2f);
         currentScore += scorePer300 * currentMultiplier;
         NoteHit();
+
+        count300 ++;
     }
 
     public void Hit200()
@@ -106,6 +117,8 @@ public class GameManager : MonoBehaviour
         Destroy(clone200, 0.2f);
         currentScore += scorePer200 * currentMultiplier;
         NoteHit();
+
+        count200 ++;
     }
 
     public void Hit100()
@@ -114,6 +127,8 @@ public class GameManager : MonoBehaviour
         Destroy(clone100, 0.2f);
         currentScore += scorePer100 * currentMultiplier;
         NoteHit();
+
+        count100 ++;
     }
 
     public void Hit050()
@@ -122,6 +137,8 @@ public class GameManager : MonoBehaviour
         Destroy(clone050, 0.2f);
         currentScore += scorePer050 * currentMultiplier;
         NoteHit();
+
+        count050 ++;
     }
 
     public void NoteMissed()
@@ -137,5 +154,7 @@ public class GameManager : MonoBehaviour
 
         comboText.text = "";
         multiplierText.text = "Multiplier : x" + currentMultiplier;
+
+        count000 ++;
     }
 }

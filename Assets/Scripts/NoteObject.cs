@@ -30,22 +30,22 @@ public class NoteObject : MonoBehaviour
                 float judgeRange  = beatScroller.scrollSpeed / 10f;
                 float judgePreset = buttonLine.transform.position.y;
 
-                if (Mathf.Abs(transform.position.y) + judgePreset > 0.5f * judgeRange)
-                {
-                    Debug.Log("50");
-                    GameManager.instance.Hit050();
-                } else if (Mathf.Abs(transform.position.y) + judgePreset > 0.2f * judgeRange)
-                {
-                    Debug.Log("100");
-                    GameManager.instance.Hit100();
-                } else if (Mathf.Abs(transform.position.y) + judgePreset > 0.1f * judgeRange)
-                {
-                    Debug.Log("200");
-                    GameManager.instance.Hit200();
-                } else
+                if (Mathf.Abs(transform.position.y - judgePreset) < 0.1f * judgeRange)
                 {
                     Debug.Log("300");
                     GameManager.instance.Hit300();
+                } else if (Mathf.Abs(transform.position.y - judgePreset) < 0.2f * judgeRange)
+                {
+                    Debug.Log("200");
+                    GameManager.instance.Hit200();
+                } else if (Mathf.Abs(transform.position.y - judgePreset) < 0.5f * judgeRange)
+                {
+                    Debug.Log("100");
+                    GameManager.instance.Hit100();
+                } else
+                {
+                    Debug.Log("50");
+                    GameManager.instance.Hit050();
                 }
             }
         }
