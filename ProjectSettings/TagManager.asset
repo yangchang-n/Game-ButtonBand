@@ -16,8 +16,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Test1
+  - Test2
   - 
   - 
   - 
@@ -39,12 +39,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1375215873
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Panel
+    uniqueID: 832945777
     locked: 0
   - name: Notes
     uniqueID: 3090298267
     locked: 0
-  - name: Panel
-    uniqueID: 832945777
+  - name: Buttons
+    uniqueID: 4123878821
+    locked: 0
+  - name: FadeIOScreen
+    uniqueID: 3003695487
     locked: 0

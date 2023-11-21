@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ScreenManager : MonoBehaviour
 {
-    public  Image       loadingScreen;
+    public  Image       fadeInOutScreen;
     public  float       fadeSpeed = 1.0f;
     private bool        isFadingOut = false;
 
@@ -28,7 +28,7 @@ public class ScreenManager : MonoBehaviour
         while (alpha > 0)
         {
             alpha -= Time.deltaTime * fadeSpeed;
-            loadingScreen.color = new Color(0, 0, 0, alpha);
+            fadeInOutScreen.color = new Color(0, 0, 0, alpha);
             yield return null;
         }
     }
@@ -44,7 +44,7 @@ public class ScreenManager : MonoBehaviour
         while (alpha < 1)
         {
             alpha += Time.deltaTime * fadeSpeed;
-            loadingScreen.color = new Color(0, 0, 0, alpha);
+            fadeInOutScreen.color = new Color(0, 0, 0, alpha);
             yield return null;
         }
 
