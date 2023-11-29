@@ -14,7 +14,7 @@ class InfiniteScroll : MonoBehaviour
 
     void Start()
     {
-        var items = Enumerable.Range(0, 20)
+        var items = Enumerable.Range(1, 100)
             .Select(i => new ItemData($"Cell {i}"))
             .ToArray();
 

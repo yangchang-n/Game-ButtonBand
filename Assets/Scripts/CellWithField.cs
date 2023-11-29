@@ -9,11 +9,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using FancyScrollView;
 
-class Cell : FancyCell<ItemData, Context>
+class CellWithField : FancyCell<ItemData, Context>
 {
     [SerializeField] Animator animator = default;
     [SerializeField] Text message = default;
+    [SerializeField] Text messageLarge = default;
     [SerializeField] Image image = default;
+    [SerializeField] Image imageLarge = default;
     [SerializeField] Button button = default;
 
     static class AnimatorHash
@@ -29,9 +31,10 @@ class Cell : FancyCell<ItemData, Context>
     public override void UpdateContent(ItemData itemData)
     {
         message.text = itemData.Message;
+        messageLarge.text = Index.ToString();
 
         var selected = Context.SelectedIndex == Index;
-        image.color = selected
+        imageLarge.color = image.color = selected
             ? new Color32(255, 255, 255, 255)
             : new Color32(255, 255, 255, 100);
     }
