@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScreenManager : MonoBehaviour
 {
@@ -51,12 +51,17 @@ public class ScreenManager : MonoBehaviour
         SceneManager.LoadScene(screenName);
     }
 
-    public void ClickStartButton()
+    public void ClickStart()
     {
-        FadeToScreen("MusicSelection");
+        FadeToScreen("SelectMusic");
     }
 
-    public void ClickStartMusic()
+    public void ClickBack()
+    {
+        FadeToScreen("MainScreen");
+    }
+
+    public void ClickPlay()
     {
         FadeToScreen("GamePlay");
     }
